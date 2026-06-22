@@ -1,0 +1,676 @@
+/* 
+ Theme Name:     Arcedo
+ Author:         Mark Hendriksen
+ Author URI:     https://www.markhendriksen.com
+ Template:       Divi
+ Version:        1.0
+*/
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */
+
+/* #################################### */
+/* ######## CHANGE MENU COLORS ######## */
+/* #################################### */
+
+
+@media only screen and (min-width : 981px) {
+#menu-main-navigation > li > a:hover {       
+background: #000000; 	/* CHANGE HOVER BACKGROUND COLOR */
+color: #ffffff; 	/* CHANGE HOVER TEXT COLOR  */
+}
+
+#menu-main-navigation .current-menu-item {
+background: #000000; 	/* CHANGE CUURENT MENU ITEM BACKGROUND COLOR */
+color: #ffffff; 	/* CHANGE CURRENT MENU TEXT COLOR  */
+}}
+
+/* ######## LINE TITLES ######### */
+
+.Title_line h1:before,
+.Title_line h1:after,
+.Title_line h2:before,
+.Title_line h2:after,
+.Title_line h3:before,
+.Title_line h3:after {
+  background: #122835;
+}
+
+.Title_line_white h2:before,
+.Title_line_white h2:after,
+.Title_line_white h3:before,
+.Title_line_white h3:after {
+background: #ffffff;
+}
+
+/* ################################### */
+/* ######### SIDEBAR COLORS ########## */
+/* ################################### */
+
+/* ######## WIDGET BORDER TOP ######## */
+
+.et_pb_widget {
+border-top: 5px solid #d2bb0d !important;
+}
+
+/* ######### WIDGET BUTTONS ########## */
+
+.button_widget a {
+background-color: #d2bb0d;
+}
+
+.button_widget a:hover {
+background-color: #ccb616;
+}
+
+/* ###### WIDGET REVIEW TITLE ####### */
+
+.review_title {
+color: #0067b1;
+}
+
+/* ###### BLOG BUTTON ####### */
+
+.more-link {
+    background-color: #d2bb0d;
+}
+
+/* ###### PROJECT GRID ####### */
+
+@media (min-width: 981px){ 
+.gq-portfolio-section .et_pb_portfolio_item h2 {
+        background-color: #122835;
+        color: #fff;
+}}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active {
+    color: #ffffff !important;
+    background-color: #d2bb0d;
+}
+
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li a:hover {
+    color: #fff;
+    background-color: #d2bb0d;
+}
+
+/* #################################### */
+/* ############ FONT SIZES ############ */
+/* #################################### */
+
+h2 {
+font-weight: bold;
+font-size: 40px !important;
+line-height: 1em;
+}
+
+h3 {
+font-weight: bold;
+font-size: 26px !important;
+line-height: 1em;
+}
+
+@media only screen and (max-width : 479px) {
+h2 {
+font-size: 30px;
+}}
+
+
+/* ############################### */
+/* ######## HEADER STYLES ######## */
+/* ############################### */
+
+#main-header {
+display: none !important;
+}
+
+#page-container {
+padding-top: 0px !important;
+}
+
+@media only screen and (min-width : 1350px) {
+.fourcolumncuston .thirtyseven {
+width: 37%; 
+float: left; 
+margin-right: 0%;
+}
+
+.fourcolumncuston .twentyone {
+width: 21%; 
+float: left; 
+margin-right: 0%;
+}}
+
+@media all and (max-width: 1350px) and (min-width: 981px) {
+.twentyone .et_pb_blurb p {
+font-size: 11px;
+line-height: 1.7em;
+}
+
+.phoneNumberTop p {
+font-size: 26px;
+}}
+
+ul.centered-social { 
+width:100%; 
+text-align:center; 
+margin: 0 0 0 0 ; 
+margin-left: 5px;
+}
+
+.centered-social li { 
+float:none; 
+display:inline-block; 
+}
+
+.centered-social li {
+margin-bottom: 0px !important;
+}
+
+ul.centered-social {
+line-height: 0px !important;
+}
+
+.ButtonHeader {
+padding-top: 0.1em !important;
+padding-bottom: 0.1em !important;
+padding-left: 2em;
+padding-right: 0.7em;
+}
+
+@media only screen and (max-width: 479px) {
+.freeQuote {
+margin-bottom: 10px !important;
+}}
+
+@media all and (max-width: 1450px) and (min-width: 981px) {
+.phoneNumber .et_pb_text_inner {
+font-size: 26px !important;
+}}
+
+@media all and (max-width: 580px) and (min-width: 480px) {
+.phoneNumber .et_pb_text_inner {
+    font-size: 28px !important;
+}}
+
+@media only screen and (max-width : 479px) {
+.twentyone .phoneNumber,
+.twentyone  .call_us {
+text-align: center;
+}}
+
+/* ############################### */
+/* ########## MENU BAR  ########## */
+/* ############################### */
+ 
+.et_pb_fullwidth_menu li a {
+padding: 25px 25px!important;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+.et_pb_fullwidth_menu .fullwidth-menu-nav > ul {
+padding: 0px 0 !important;
+}
+
+.fullwidth-menu li {
+display: inline-block;
+padding-right: 0px !important;
+font-size: 14px;
+}}
+
+@media only screen and (min-width : 981px) {
+.fullwidth-menu .menu-item-has-children > a:first-child:after {
+top: 24px;
+right: 5px;
+}}
+
+@media only screen and (min-width : 981px) {
+.menuTop .et_pb_row {
+width: 98% !important;
+}}
+
+@media only screen and (min-width: 981px) {
+.fullwidth-menu li {
+    margin-left: -4px;
+}}
+
+.fullwidth-menu a:hover {
+    opacity: 1;
+}
+
+.fullwidth-menu .menu-item-has-children>a:first-child:after {
+    top: 24px;
+}
+
+ul.sub-menu li a {
+    padding: 5px 5px!important;
+}
+
+ul.sub-menu .current-menu-item {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.mobile_menu_bar:before {
+color: #122835 !important;
+}
+
+.et_mobile_menu li a {
+    border-bottom: 1px solid rgba(18, 40, 53, 0.28);
+}
+
+/* ##################################### */
+/* ############# SUB HEADER ############ */
+/* ##################################### */
+
+@media only screen and (min-width : 981px) {
+.subHeader .et_pb_button_one,
+.subHeader .et_pb_button_two {
+width: 25%;
+}}
+
+@media only screen and (max-width : 980px) {
+.subHeader .et_pb_button_one,
+.subHeader .et_pb_button_two {
+width: 100%;
+margin-left: 0px !important;
+}}
+
+/* ############ BLURBS SHADOW ############# */
+
+.mp_m_blurb_float_shadow {
+border: 1px solid #eee;
+box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.14);
+-webkit-transition: all .3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+ 
+.mp_m_blurb_float_shadow:before {
+pointer-events: none;
+position: absolute;
+z-index: -1;
+content: '';
+top: 100%;
+left: 5%;
+height: 10px;
+width: 90%;
+opacity: 0;
+background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+-webkit-transition: all .3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+ 
+.mp_m_blurb_float_shadow:hover {
+-webkit-transform: translateY(-7px);
+transform: translateY(-7px);
+box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.2);}
+ 
+.mp_m_blurb_float_shadow:hover:before {
+ opacity:1;
+ top: 106%;
+ height: 15px;}
+
+.mp_m_blurb_float_shadow .et_pb_blurb_container {
+padding: 0 25px;
+}
+
+/* ############ CENTERED LINE ############# */
+
+.Title_line h1,
+.Title_line h2,
+.Title_line h3 {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+.Title_line h1:before,
+.Title_line h1:after,
+.Title_line h2:before,
+.Title_line h2:after,
+.Title_line h3:before,
+.Title_line h3:after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+    top: 50%;
+  width: 400%;
+}
+
+.Title_line h1:before,
+.Title_line h2:before,
+.Title_line h3:before {
+  right: 100%;
+}
+
+.Title_line h1:after,
+.Title_line h2:after,
+.Title_line h3:after {
+  left: 100%;
+}
+
+.Title_line {
+  overflow: hidden;
+  text-align: center;
+}
+
+/* ############ TRIANGLE REVIEWS ############# */
+
+.Little_triangle {
+position:relative;
+}
+
+.Little_triangle:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+    width: 0;
+    height: 0;
+    border-top: solid 25px #122835;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+}
+
+/* ############ TRIANGLE CONTACT/FOOTER ############# */
+ 
+#et-main-area { overflow: hidden;} /* Hides all the items that float over the right margin */
+ 
+.big-triangle:after,.big-triangle:before {
+    content:'';
+    position:absolute;
+    bottom:0;
+    width:50%;
+    z-index:100;
+    border-bottom:50px solid #122835;
+    -moz-transform:rotate(0.000001deg);
+    -webkit-transform:rotate(0.000001deg);
+    -o-transform:rotate(0.000001deg);
+    -ms-transform:rotate(0.000001deg);
+    transform:rotate(0.000001deg);
+}
+ 
+.big-triangle:before{
+    right:50%;
+    border-right:1000px solid transparent;
+    border-left:1000px solid;
+}
+ 
+.big-triangle:after{
+    left:50%;
+    border-left:1000px solid transparent;
+    border-right:1000px solid;
+}
+
+/* ############ FOOTER ############# */
+
+.footer_column_2 h2 {
+font-size: 23px;
+}
+
+
+
+
+
+/* ############################ */
+/* ######### SIDEBAR ########## */
+/* ############################ */
+
+.et_pb_widget {
+border: 1px solid #e5e5e5;
+padding: 30px;
+border-radius: 5px;
+}
+
+h4.widgettitle {
+font-size: 24px;
+font-weight: bold;
+}
+
+.et_pb_widget ul li {
+margin-bottom: 0em;
+}
+
+.et_pb_widget ul {
+padding-left: 40px !important;
+list-style-type: disc !important;
+}
+
+.et_pb_widget li a:hover {
+color: #000 !important;
+}
+
+/* ######### WIDGET PROJECT ########## */
+
+.widget_project p,
+.cta_sidebar p {
+font-size: 14px;
+line-height: 1.5em;
+}
+
+.widget_project img {
+width: 75px;
+}
+
+.widget_project h4.widgettitle {
+padding-bottom: 20px;
+}
+
+@media all and (max-width: 1175px) and (min-width: 981px) {
+.widget_project img {
+width: 100%
+}}
+
+/* ######### WIDGET CTA ########## */
+
+.cta_sidebar {
+text-align: center;
+}
+
+.button_widget a {
+background-color: #d2bb0d;
+color: #fff !important;
+font-size: 18px;
+font-weight: bold;
+padding: 8px;
+width: 100%;
+display: block;
+border-radius: 10px;
+text-align: center;
+margin-top: 15px;
+line-height: 1.4em;
+}
+
+.button_widget a:hover {
+background-color: #ccb616;
+}
+
+/* ######### WIDGET REVIEW ########## */
+
+.review_title {
+font-size: 30px;
+font-style: italic;
+color: #0067b1;
+font-weight: bold;
+}
+
+@media all and (max-width: 1350px) and (min-width: 981px) {
+.review_title {
+    font-size: 18px;
+    line-height: 1.3em;
+}}
+
+
+/* ################################ */
+/* ######### REVIEW PAGE ########## */
+/* ################################ */
+
+.Testimonial_text p {
+margin: 0 auto;
+    display: block;
+    width: 350px;
+}
+
+.Testimonial_text_p {
+padding-top: 25px;
+    display: block;
+}
+
+@media all and (max-width: 479px) {
+.Testimonial_text img {
+width: 20%;
+}
+
+.Testimonial_text_p {
+padding-top: 5px;
+}}
+
+@media all and (max-width: 1350px) and (min-width: 981px) {
+.Reviews_page .et_pb_text {
+padding-left: 20px !important;
+padding-right: 20px !important;
+font-size: 14px;
+    line-height: 1.7em;
+}
+
+.Reviews_page .et_pb_text img {
+width: 20%;
+}
+
+.Testimonial_text_p {
+padding-top: 5px;
+}}
+
+
+/* ############################## */
+/* ######### BLOG PAGE ########## */
+/* ############################## */
+
+.more-link {
+	display: inline-block !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+/* ############################## */
+/* ######### 404 PAGE ########## */
+/* ############################## */
+
+.error404 .et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-content-container.center {
+    -webkit-align-self: baseline;
+    -moz-align-self: baseline;
+    -ms-align-self: baseline;
+    align-self: baseline;
+    margin-top: 15%;
+}
+
+/*##################################*/
+/*######## PORTFOLIO GRID ##########*/
+/*##################################*/
+ 
+/* Change columns from 4-3 */
+ 
+    @media (min-width: 981px){ 
+        .gq-portfolio-section .et_pb_gutters2.et_pb_row .et_pb_column_4_4 .et_pb_grid_item  {width: 31.33% !important;}
+        .gq-portfolio-section .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n+1) {clear: inherit;}
+        .gq-portfolio-section .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n) {margin-right: 3%!important;}
+        .gq-portfolio-section .et_pb_column_4_4 .et_pb_grid_item:nth-child(3n) {margin-right: 0%!important;}}
+ 
+/* special hover effect for desktop only */
+ 
+    @media (min-width: 981px){ 
+    .gq-portfolio-section .et_portfolio_image {
+        min-height: 200px;}
+ 
+    .gq-portfolio-section .et_pb_portfolio_item {
+            position: relative;
+            overflow: hidden;
+            max-height: 320px;}
+ 
+    .gq-portfolio-section .et_pb_portfolio_item img {
+            webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s;
+            -webkit-transform: scale(1.15);
+            transform: scale(1.15);}
+ 
+    .gq-portfolio-section .et_pb_portfolio_item:hover img {
+            -webkit-transform: scale(1);
+            transform: scale(1);}
+ 
+    .gq-portfolio-section .et_pb_portfolio_item h2 {
+        font-size: 16px !important;
+        position:absolute;
+        text-align:center;
+        width:100%;
+        top:100%;
+        transition:.5s;
+        webkit-transition:.5s;}
+ 
+    .gq-portfolio-section .et_pb_portfolio_item:hover h2 {
+            top: 79%;
+            padding: 15px 0;
+z-index: 9;}
+ 
+    .gq-portfolio-section .et_overlay {z-index: 0;}
+ 
+ 
+    .gq-portfolio-section .et_overlay:before {
+        opacity:0!important;
+            top: -10%!important;
+            font-family: sans-serif!important;
+            content: 'Read More'!important;
+            font-size: 13px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.59);
+             color: #fff !important;
+           width:100%  
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-40%)}
+ 
+    .gq-portfolio-section .et_overlay:hover:before {
+        opacity:1!important;
+            top: 6%!important;
+color: #fff !important;
+}}
+ 
+        @media only screen and (min-width : 1061px) and (max-width : 1200px) {
+            .gq-portfolio-section  .et_pb_portfolio_item h2 {font-size: 15px!important;}
+            .gq-portfolio-section  .et_pb_portfolio_item:hover h2 {top: 73%!important;}}
+ 
+        @media only screen and (min-width : 981px) and (max-width : 1060px) {
+            .gq-portfolio-section  .et_pb_portfolio_item h2 {font-size: 14px!important;}
+            .gq-portfolio-section  .et_pb_portfolio_item:hover h2 {top: 72%!important;}}
+ 
+        @media only screen and (max-width : 980px) {
+            .gq-portfolio-section .et_pb_portfolio_item h2 {font-size: 14px!important;}
+            .gq-portfolio-section .et_overlay {display:none;}}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters ul {
+    text-align: center;
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li {
+    float: none;
+    display: inline-block;
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li a {
+    border: 1px solid #4d176e;
+text-transform: uppercase;
+}
+
+.et_pb_filterable_portfolio .et_pb_portofolio_pagination {
+    border-top: 0px solid #e2e2e2;
+}
